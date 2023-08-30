@@ -1,0 +1,39 @@
+ul {
+    list-style: none;
+}
+
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.item:nth-child(1) {
+  background-color: #ff8888;
+}
+
+.item:nth-child(2) {
+  background-color: #7e8aeb;
+  left: 60px;
+  top: 60px;
+  z-index: 1;
+}
+
+.item:nth-child(3) {
+  background-color: #4def99;
+  left: 120px;
+  top: 120px;
+}
